@@ -11,7 +11,7 @@ var open_4 = false;
 $menu.append('<li><a href="index.html" id="home">HOME</a></li>');
 // $menu.append('<li><a href="about.html" id="about">ABOUT</a></li>');
 $menu.append('<li><a href="resume.html" id="resume-page">RESUME</a></li>');
-$menu.append('<li><a href="#">PORTFLIO</a></li>');
+$menu.append('<li><a href="#">MY PROJECTS</a></li>');
 $menu.append('<li><a href="#">CONTACT</a></li>');
 $menu.append('<li id="site"><a href="#">About This Site</a></li>');
 
