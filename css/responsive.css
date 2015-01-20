@@ -1,0 +1,164 @@
+@media screen and (min-width: 480px){
+	#resume{
+		padding: 20px 5% 20px 5%;
+		
+
+	}
+
+	#bridge {
+		height: 630px;
+		
+		
+	}
+	
+	#bridge h2{
+		margin-top: 200px;
+		color: #ecf0f1;
+	}
+	.click{
+		margin-top: 90px;
+	}
+	.click-down{
+		margin-top: 130px;
+	}
+
+	#pdf{
+		margin-top: 60px;
+	}
+
+
+
+}
+
+@media screen and (min-width: 720px){
+	.large{
+		float: left;
+  	width: 66.66666666%;
+  }
+	.reg {
+  	float: left;
+  	width: 33.33333333%;
+	}
+	#drawer{
+		display: none;
+	}
+	#lgNav{
+  	display: inline-block;
+  	padding: 0;
+  	margin: 0;
+	}
+	
+	#on{
+		display: none;
+	}
+	h1{
+		float:left;
+		display: inline-block;
+		padding-bottom: 0;
+		margin-top: 4px
+		
+	}
+
+	nav{
+		padding: 0;
+		text-align: right;
+		padding: 20px 10% 20px 10%;
+	}
+
+	nav ul {
+  	list-style: none;
+  	padding: 0;
+	}
+
+	nav li {
+  	display: inline-block;
+	}
+	nav li a{
+		color: #F2F2F2;
+		margin: 4px 0px 1px 20px;
+		padding: 5px 2px 5px 2px;
+	}
+	nav li a.selected, nav li a:hover{
+  	color: #e74c3c;
+	}
+	.profile-photo{
+		float: left;
+		margin: 0 5% 80px 0;
+	}
+	#aboutMe{
+		
+		padding-top: 70px;
+	}
+	#drawer{
+		padding: 0;
+	}
+	#resume{
+		padding: 20px 11%;
+		text-align: left;
+
+	}
+	/*home*/
+	#bridge {
+		height: 100vh;
+		margin-bottom: 0;
+		position: relative;
+		z-index: 2;
+	}
+	#bridge h2{
+		margin-top: 250px;
+		font-size: 2em;
+		color: #3498db;
+	}
+	.click{
+		margin-top: 120px;
+	}
+	.click-down{
+		margin-top: 170px
+	}
+	#about-info{
+		padding-top: 60px;
+		position: relative;
+  	z-index: 3;
+  	padding-top: 0;
+  	height: 720px
+  	
+
+	}
+
+	#me{
+		float: left;
+  	width:50%;
+  	
+	}
+
+	#about-info h2{
+		margin-top: 100px;
+	}
+
+	#time{
+		float: left;
+		padding:0;
+		margin: 0;
+		width: 38%;
+		margin:0;
+		padding: 120px 0 185px 4%;
+		margin-right: -5%;
+		background: #3498db;
+		border: none;
+
+
+	}
+
+	/*resume*/
+	#pdf{
+		margin-top: 100px;
+	}
+
+	#resume{
+		margin-top: 70px
+	}
+
+
+}
+
+
