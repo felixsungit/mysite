@@ -7,16 +7,13 @@ a {
 }
 
 img {
- /* max-width: 100%;*/
   display: block;
-  
 
 }
 body{
   background: #ecf0f1;
   padding: 0;
   font-family: 'Lato', helvetica;
-
 }
 
 #container {
@@ -26,14 +23,9 @@ body{
   padding: 0;
 
 }
-#test{
-  margin:0;
-  background: green;
-}
 li{
 	list-style: none;
 }
-
 .clear{
   clear:both;
 }
@@ -135,8 +127,6 @@ li#site {
   background: #e74c3c;
   padding: 3px;
   border-bottom: 2px solid #111130;
-  /*border-top: 2px solid #111130;
-  */
 }
 li#site a{
   color: #111130;
@@ -148,17 +138,6 @@ li#site a:hover{
   border-bottom:none;
 }
 
-/**********************************
-PAGE: ABOUT
-***********************************/
-
-.profile-photo {
-  display: block;
-  max-width: 140px;
-  margin: 16px auto 30px;
-  padding: 50px;
-  border-radius: 100%;
-}
 
 /**********************************
 PAGE: HOME
@@ -312,30 +291,25 @@ PAGE: RESUME
 }
 .summary{
   margin: 5px 20px;
-  
+  max-width: 1080px;
 }
 
 #resume .summary ul li{
   padding: 6px 0;
   list-style: square;
-
 }
 
 #resume a p{
-  color:#252728;
-  
+  color:#252728; 
 }
 
 #pdf{
-  margin-top:20px;
-  text-align: center;
-  
+  margin-top:20px; 
 }
 #pdf a{
   border: 3px solid #e74c3c;
   border-radius: 10px;
   padding: 10px 130px 8px 130px;
-  
 
 }
 #pdf img{
@@ -349,4 +323,41 @@ PAGE: RESUME
   margin: 0;
   font-size: 1.15em;
   margin-bottom: 8px;
+}
+#work{
+  margin: 5px 5px;
+}
+#work ul {
+  margin-left: 30px;
+  margin-top: 0;
+  padding-top: 0;
+}
+#work h2{
+  margin: 0;
+  padding: 15px 0 10px 0;
+  font-size: 1.05em;
+
+}
+#side{
+  margin: 5px 5px;
+}
+#side ul {
+  margin-left: 30px;
+  margin-top: 0;
+  padding-top: 0;
+}
+#side h2{
+  margin: 0;
+  padding: 15px 0 10px 0;
+  font-size: 1.05em;
+
+}
+#school{
+  margin: 5px 5px;
+}
+#school h2{
+  margin: 0;
+  padding: 15px 0 10px 0;
+  font-size: 1.05em;
+
 }

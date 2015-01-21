@@ -25,7 +25,7 @@ $("body").append($overlay);
 
 
 $("#drawer").click(function(event){
-  // event.preventDefault();
+  event.preventDefault();
   $overlay.slideToggle(500);
  
   if (current === 'dw2'){
@@ -67,15 +67,17 @@ $("#skills-title").css("border-bottom","2px solid #0F0F0D");
 $("#skills-title .triangle").attr('src', "pics/triangle2.png");
 
 $("#skills-title").click(function(event){
-  // event.preventDefault();
+  event.preventDefault();
   $("#skills").slideToggle(500);
   if (open_1 === false){
     $("#skills-title").css("border-bottom","2px solid #0F0F0D");
     $("#skills-title .triangle").attr('src', "pics/triangle2.png");
+
     open_1 = true;
   }else{
     $("#skills-title").css("border-bottom","none");
     $("#skills-title .triangle").attr('src', "pics/triangle.png");
+
     open_1 = false;
   }
 
@@ -86,7 +88,7 @@ $("#skills-title").click(function(event){
 
 
 $("#work-title").click(function(event){
-  // event.preventDefault();
+  event.preventDefault();
   $("#work").slideToggle(500);
   if (open_2 === false){
     $("#work-title").css("border-bottom","2px solid #0F0F0D");
@@ -100,36 +102,42 @@ $("#work-title").click(function(event){
 
 });
 
+$("#side-title").click(function(event){
+  event.preventDefault();
+  $("#side").slideToggle(500);
+  if (open_3 === false){
+    $("#side-title").css("border-bottom","2px solid #0F0F0D");
+    $("#side-title .triangle").attr('src', "pics/triangle2.png");
+    open_3 = true;
+  }else{
+    $("#side-title").css("border-bottom","none");
+    $("#side-title .triangle").attr('src', "pics/triangle.png");
+    open_3 = false;
+  }
+
+});
+
 $("#school-title").click(function(event){
-  // event.preventDefault();
+  event.preventDefault();
   $("#school").slideToggle(500);
+  if (open_4 === false){
+    $("#school-title").css("border-bottom","2px solid #0F0F0D");
+    $("#school-title .triangle").attr('src', "pics/triangle2.png");
+    open_4 = true;
+  }else{
+    $("#school-title").css("border-bottom","none");
+    $("#school-title .triangle").attr('src', "pics/triangle.png");
+    open_4 = false;
+  }
   
 
 });
 
-$("#side-title").click(function(event){
-  // event.preventDefault();
-  $("#side").slideToggle(500);
-
-});
-
-
-
-//parallax-------------------------------------------
 
 
 
 
-// $overlay..click(function(event){
-//   event.preventDefault();
-//   $overlay.slideToggle(500);
 
-// });	
-
-
-// if ($( window ).width() > 720px){
-// 	//$overlay.fadeout();
-// }
 
 
 
