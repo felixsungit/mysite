@@ -11,9 +11,10 @@ img {
 
 }
 body{
-  background: #ecf0f1;
+  background: #252728; 
   padding: 0;
   font-family: 'Lato', helvetica;
+  
 }
 
 #container {
@@ -39,7 +40,7 @@ h1{
 }
 
 /**********************************
-HEADING
+HEADER and Footer
 ***********************************/
 
 header {
@@ -76,6 +77,20 @@ nav a {
 
 #on{
   color:#e74c3c;
+}
+
+footer{
+  margin: 0;
+  background: #252728; 
+  
+}
+footer p{
+  padding: 0;
+  margin: 0;
+  padding: 10px 8%;
+  color: #F2F2F2;
+  font-family: 'Abel', helvetica;`
+ 
 }
 
 
@@ -207,18 +222,7 @@ PAGE: HOME
   color: #F2F2F2;
   /*display: inline-block;*/
 }
-footer{
-  margin: 0;
-  background: #252728; 
-  
-}
-footer p{
-  padding: 0;
-  margin: 0;
-  padding: 10px 8%;
-  color: #F2F2F2;
- 
-}
+
 #td{
   max-width: 60px;
   margin-left: 50px;
@@ -259,10 +263,13 @@ PAGE: RESUME
 ***********************************/
 
 #resume{
-  padding: 10px 3% 10px 3%;
+  padding: 30px 3% 10px 3%;
   max-width: 1920px;
-  margin: 30px auto 20px;
+  margin: 30px auto 0;
   background: #ecf0f1;
+  min-height: 580px;
+ 
+
 
 
 
@@ -273,7 +280,6 @@ PAGE: RESUME
 }
 
 .sections{
-  /*border-bottom: 2px solid #0F0F0D;*/
   padding: 12px 0;
 }
 #resume ul li p{
@@ -303,27 +309,6 @@ PAGE: RESUME
   color:#252728; 
 }
 
-#pdf{
-  margin-top:20px; 
-}
-#pdf a{
-  border: 3px solid #e74c3c;
-  border-radius: 10px;
-  padding: 10px 130px 8px 130px;
-
-}
-#pdf img{
-  display: inline-block;
-  max-width: 30px;
-  margin-top:10px;
-  margin-bottom: -7px
-}
-#pdf p{
-  display: inline-block;
-  margin: 0;
-  font-size: 1.15em;
-  margin-bottom: 8px;
-}
 #work{
   margin: 5px 5px;
 }
@@ -361,3 +346,85 @@ PAGE: RESUME
   font-size: 1.05em;
 
 }
+
+#r_link{
+  margin-top:30px;
+  margin-bottom: 50px; 
+}
+#r_link a{
+  border: 2px solid #e74c3c;
+  border-radius: 10px;
+  padding: 10px 10% 8px 10%;
+
+}
+#r_link img{
+  display: inline-block;
+  max-width: 30px;
+  margin-top:10px;
+  margin-bottom: -7px
+}
+#r_link p{
+  display: inline-block;
+  margin: 0;
+  font-size: 1.15em;
+  margin-bottom: 8px;
+}
+#r_link #git{
+  border: 2px solid #3498db;
+  padding: 10px 10% 8px 10%;
+  margin-left: 13px;
+}
+#r_link #git p{
+  margin:0 4px 8px 4px;
+}
+
+/**********************************
+PAGE: RESUME
+***********************************/
+
+#contact{
+  margin: 0 auto;
+  padding: 80px 3% 50px;
+  background: #ecf0f1;
+  text-align: center;
+
+  
+}
+#contact ul{
+  margin: 0;
+  padding: 20px 0;
+   
+}
+#contact ul li a img{
+  display: block;
+  width:60px;
+  margin-bottom: -17px;
+  border-radius: 100%;
+  border: 2px solid #252728; 
+  display:inline-block;
+  
+}
+
+#contact ul li a p{
+  color: #252728;
+  font-size: 1.25em; 
+  display:inline-block;
+  padding: 6px;
+
+ 
+  
+}
+#contact ul li a{
+  padding: 0;
+  margin: 0;
+}
+#contact ul li{
+  padding: 20px 0 20px 0;
+}
+/*#contact ul li a #c_git{
+  width: 32px;
+  margin: 0 0 -8px 10px;
+  padding-right: 7px
+
+}*/
+
