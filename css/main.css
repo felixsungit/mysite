@@ -192,6 +192,7 @@ PAGE: HOME
 
   margin: 0 auto;
   padding-top: 60px;
+  overflow: hidden;
 }
 #about-info h2{
   color: #e74c3c;
