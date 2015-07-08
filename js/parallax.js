@@ -1,19 +1,20 @@
 var open = 'no';
 
-$(window).on("resize", function () {
-  if ( $(window).width() > 480){
+//turn off parallax for now
+// $(window).on("resize", function () {
+//   if ( $(window).width() > 480){
 
 
 
-    var ypos,image;
-      function parallex() {
-        image = document.getElementById('bridge');
-        ypos = window.pageYOffset;
-        image.style.top = ypos * .7+ 'px';
-      }
-      window.addEventListener('scroll', parallex),false;
-  }
-}).resize();
+//     var ypos,image;
+//       function parallex() {
+//         image = document.getElementById('bridge');
+//         ypos = window.pageYOffset;
+//         image.style.top = ypos * .7+ 'px';
+//       }
+//       window.addEventListener('scroll', parallex),false;
+//   }
+// }).resize();
 
 $("#drawer").click(function(event){
   if(open === 'no'){

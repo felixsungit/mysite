@@ -160,8 +160,10 @@ PAGE: HOME
 
 #bridge {
   background-image: linear-gradient(
-      rgba(0, 50, 100, 0.3), 
-      rgba(0, 0, 0, 0.5)
+      
+      rgba(0, 50, 100, 0.5), 
+      rgba(0, 0, 0, 0.7)
+
   ), url( "../pics/ld.jpg");
   
   width: 100%;
@@ -200,6 +202,7 @@ PAGE: HOME
   
   /*margin-bottom: 25px;*/
 }
+
 #me p{
   margin: 10px 0;
   padding: 50px 2px 60px 2px;
@@ -210,12 +213,30 @@ PAGE: HOME
   margin: 25px 5%;
 
 }
+
+#me a{
+  color: #c0392b;
+}
+
+#me a:hover{
+  color: #e67e22;
+
+}
+
 #time{
   border-left: 2px solid #e74c3c;
   padding: 40px 8%;
   background: #e74c3c;
   margin-bottom: 0;
 
+}
+
+#time a{
+  color: #252728;
+}
+
+#time a:hover{
+   color: #34495e;  
 }
 #time p{
   padding: 30px 15px; 
