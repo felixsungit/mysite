@@ -444,10 +444,12 @@ PAGE: RESUME
 #contact ul li{
   padding: 20px 0 20px 0;
 }
-/*#contact ul li a #c_git{
-  width: 32px;
-  margin: 0 0 -8px 10px;
-  padding-right: 7px
 
-}*/
+.summary a{
+  color: #c0392b;
+}
+
+.summary a:hover{
+  color:  #f39c12;
+}
 
